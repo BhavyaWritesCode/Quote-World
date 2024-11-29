@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote World</title>
+    <link rel="stylesheet" href="/src/styles/index.css">
+  </head>
+  <body>
+    <header>
+      <h1>Random Quote Generator</h1>
+    </header>
+    <main>
+      <div class="category-buttons">
+        <button data-category="motivational">Motivational</button>
+        <button data-category="inspirational">Inspirational</button>
+        <button data-category="funny">Funny</button>
+        <button data-category="philosophical">Philosophical</button>
+        <button data-category="love">Love</button>
+        <button data-category="success">Success</button>
+      </div>
+      <div class="container">
+        <div class="quote-card">
+          <div id="quote-display">
+            <p class="quote-text"></p>
+            <p class="quote-author"></p>
+          </div>
+          <button class="generate-button">Generate Quote</button>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
