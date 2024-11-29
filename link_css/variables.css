@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #646cff;
+    --secondary-color: #535bf2;
+    --background-gradient: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    --card-background: rgba(255, 255, 255, 0.95);
+    --text-color: #213547;
+    --header-bg: rgba(255, 255, 255, 0.8);
+    --nav-bg: rgba(255, 255, 255, 0.6);
+    --content-bg: rgba(236, 239, 244, 0.4);
+  }

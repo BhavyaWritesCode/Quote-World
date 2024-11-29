@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    
+    .category-buttons {
+      flex-direction: row;
+      overflow-x: auto;
+      padding: 1rem;
+      min-width: auto;
+      width: auto;
+    }
+    
+    .container {
+      padding: 1rem;
+    }
+    
+    button:hover, button.active {
+      transform: translateY(-2px);
+    }
+    
+    .quote-card {
+      padding: 1.5rem;
+    }
+  }
